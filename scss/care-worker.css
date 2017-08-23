@@ -1,0 +1,163 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  text-align: center; }
+  header .header {
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #5AC0CE;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center; }
+    header .header .white {
+      color: white; }
+    header .header .blue {
+      color: #5AC0CE; }
+    header .header div {
+      display: inline; }
+    header .header .center {
+      background: url(../images/bar.png) no-repeat 0 0;
+      background-size: 100% 100%;
+      padding: 0.3em;
+      display: inline; }
+    header .header #header-right {
+      background: url(../images/bigger-location.png) no-repeat 0 0;
+      background-size: 100% 100%;
+      height: 1.1em;
+      width: 1em;
+      float: right;
+      margin-right: 1em; }
+  header .dropdown-nav {
+    padding: .5rem 0;
+    border-bottom: 1px solid #A0A0A0;
+    background-color: #f8fafb; }
+    header .dropdown-nav .dropdown {
+      position: relative;
+      display: inline-block;
+      width: 32%; }
+      header .dropdown-nav .dropdown:hover .dropdown-content {
+        display: block;
+        width: 100%; }
+      header .dropdown-nav .dropdown .linear-line {
+        display: inline-block;
+        height: 1.7em;
+        width: 1px;
+        background: linear-gradient(white, gray, white);
+        float: right; }
+      header .dropdown-nav .dropdown .caret-border {
+        float: right;
+        display: inline-block;
+        height: 1.5rem;
+        margin-right: 5px; }
+        header .dropdown-nav .dropdown .caret-border .caret-border-son {
+          display: flex;
+          align-items: center;
+          height: 1.5rem; }
+          header .dropdown-nav .dropdown .caret-border .caret-border-son .triangle-down {
+            width: 0;
+            height: 0;
+            border-top: 7px solid #A0A0A0;
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+            display: inline-block; }
+      header .dropdown-nav .dropdown .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        width: 100%; }
+      header .dropdown-nav .dropdown .dropdown-menu a {
+        color: #9d9d9d;
+        text-decoration: none; }
+        header .dropdown-nav .dropdown .dropdown-menu a li {
+          color: #9d9d9d;
+          list-style-type: none;
+          text-align: left; }
+
+body {
+  margin: 0; }
+  body .main {
+    width: 100%;
+    height: 100%;
+    margin: 4.5em 0 6.5em 0; }
+  body .container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden; }
+    body .container img {
+      height: 0.9rem; }
+    body .container .left {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 50%;
+      float: left; }
+      body .container .left p {
+        margin: 0; }
+    body .container .right {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 50%;
+      color: red;
+      float: right;
+      text-align: right; }
+    body .container .gray-color {
+      color: #A0A0A0; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f8fafb;
+  width: 100%;
+  height: 3.1em;
+  font-size: 1.3em;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #A0A0A0; }
+  .footer .navbar {
+    width: 100%; }
+  .footer .left {
+    width: 40%;
+    display: inline-block;
+    font-size: 0.5em;
+    text-align: center; }
+    .footer .left button {
+      color: #5AC0CE; }
+  .footer .right {
+    display: inline-block;
+    width: 40%;
+    font-size: 0.5em;
+    text-align: center; }
+    .footer .right button {
+      color: #A0A0A0; }
+  .footer .center {
+    display: inline-block;
+    margin: auto; }
+    .footer .center button {
+      border-radius: 50%;
+      width: 4.3em;
+      height: 4.3em;
+      background-color: #5AC0CE; }
+  .footer button {
+    outline: none;
+    background-color: transparent;
+    border: 0; }
+    .footer button img {
+      width: 60%;
+      height: 50%; }
+
+/*# sourceMappingURL=care-worker.css.map */

@@ -1,0 +1,118 @@
+header {
+  width: 100%;
+  height: 1em;
+  color: white;
+  padding: 0.5em;
+  background-color: #5AC0CE;
+  font-size: 1.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  text-align: center; }
+  header img {
+    float: left; }
+
+footer {
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 1em;
+  left: 0;
+  margin: 2% 0;
+  background-color: white; }
+  footer .left {
+    float: left;
+    border-radius: 0.3em;
+    border: 2px solid #5AC0CE;
+    background-color: white;
+    color: #5AC0CE;
+    padding: 0.8em 0;
+    text-align: center;
+    font-size: 1em;
+    width: 46%;
+    margin: 0 1%; }
+  footer .right {
+    float: right;
+    border-radius: 0.3em;
+    border: 2px solid #5AC0CE;
+    background-color: #5AC0CE;
+    color: white;
+    padding: 0.8em 0;
+    text-align: center;
+    font-size: 1em;
+    width: 46%;
+    margin: 0 1%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 3em  0  20% 0; }
+  body .header-bottom {
+    overflow: hidden;
+    padding: 1em;
+    background: url(../images/doctor---blured.png) no-repeat 0 0;
+    background-size: cover;
+    margin: 0; }
+  body .header-bottom .left {
+    float: left;
+    border-radius: 2.5em;
+    background-color: #D6D6D6;
+    width: 5em;
+    display: inline;
+    margin: 0.5em; }
+  body .header-bottom .right {
+    float: left;
+    width: auto;
+    display: inline;
+    margin: 0.5em;
+    color: white; }
+  body .header-bottom .left img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  body .header-bottom .right img {
+    width: 0.7em; }
+  body span {
+    text-align: center; }
+  body .blue-bar {
+    padding: 0 0.33em 0 0;
+    background-color: #5AC0CE;
+    display: inline; }
+  body .black-bar {
+    padding: 0 0.1em 0 0;
+    margin: 0  1em;
+    background-color: #D6D6D6;
+    display: inline; }
+  body .type {
+    float: left;
+    height: 100%;
+    color: #D6D6D6;
+    width: 7em;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    flex: none; }
+  body .content {
+    flex: 1;
+    width: auto;
+    height: 100%; }
+  body .decription {
+    display: flex;
+    margin: 1em;
+    overflow: hidden; }
+  body .star-creption {
+    margin: 1em;
+    overflow: hidden; }
+  body .little-body {
+    margin: 0;
+    padding: 0; }
+    body .little-body hr {
+      margin: 0 1em; }
+  body hr {
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 0; }
+  body #little-star {
+    width: 1em; }
+
+/*# sourceMappingURL=index.css.map */
