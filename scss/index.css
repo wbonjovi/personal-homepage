@@ -1,26 +1,43 @@
 header {
   width: 100%;
-  height: 1em;
   color: white;
-  padding: 0.5em;
+  padding: .5em 0;
   background-color: #5AC0CE;
-  font-size: 1.5em;
   position: fixed;
   top: 0;
   left: 0;
   margin: 0;
-  text-align: center; }
-  header img {
+  z-index: 3;
+  text-align: center;
+  font-size: 1.5em; }
+  header img:first-child {
+    float: left; }
+  header img:last-child {
+    float: right;
+    opacity: 0; }
+
+.header {
+  background-color: #5AC0CE;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 3; }
+  .header img {
     float: left; }
 
 footer {
   width: 100%;
-  height: 5%;
+  height: 3.5em;
   position: fixed;
-  bottom: 1em;
+  bottom: 0;
   left: 0;
-  margin: 2% 0;
-  background-color: white; }
+  margin: 0;
+  background-color: white;
+  z-index: 3;
+  display: inline-block;
+  overflow: hidden; }
   footer .left {
     float: left;
     border-radius: 0.3em;
@@ -50,29 +67,40 @@ body {
   margin: 3em  0  20% 0; }
   body .header-bottom {
     overflow: hidden;
-    padding: 1em;
+    padding: 0;
     background: url(../images/doctor---blured.png) no-repeat 0 0;
     background-size: cover;
-    margin: 0; }
-  body .header-bottom .left {
-    float: left;
-    border-radius: 2.5em;
-    background-color: #D6D6D6;
-    width: 5em;
-    display: inline;
-    margin: 0.5em; }
-  body .header-bottom .right {
-    float: left;
-    width: auto;
-    display: inline;
-    margin: 0.5em;
-    color: white; }
-  body .header-bottom .left img {
-    display: block;
-    width: 100%;
-    height: 100%; }
-  body .header-bottom .right img {
-    width: 0.7em; }
+    margin: 0;
+    position: relative; }
+    body .header-bottom .bmbox {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      z-index: 0;
+      display: table-cell;
+      margin-right: -15px;
+      padding: 3rem;
+      color: white; }
+    body .header-bottom .left {
+      float: left;
+      border-radius: 2.5em;
+      background-color: #D6D6D6;
+      width: 5em;
+      display: inline;
+      margin: 0.5em; }
+    body .header-bottom .right {
+      float: right;
+      width: auto;
+      display: inline;
+      margin: 0.5em;
+      color: white; }
+    body .header-bottom .left img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    body .header-bottom .right img {
+      width: 0.7em; }
   body span {
     text-align: center; }
   body .blue-bar {
@@ -113,6 +141,8 @@ body {
     border-top: 1px solid #D6D6D6;
     border-bottom: 0; }
   body #little-star {
+    width: 1em; }
+  body #star {
     width: 1em; }
 
 /*# sourceMappingURL=index.css.map */

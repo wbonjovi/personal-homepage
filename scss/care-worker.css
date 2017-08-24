@@ -11,8 +11,7 @@ header {
     padding-bottom: 0.5em;
     background-color: #5AC0CE;
     font-size: 1.5em;
-    margin: 0;
-    text-align: center; }
+    margin: 0; }
     header .header .white {
       color: white; }
     header .header .blue {
@@ -24,6 +23,14 @@ header {
       background-size: 100% 100%;
       padding: 0.3em;
       display: inline; }
+    header .header #header-left {
+      background: url(../images/bigger-location.png) no-repeat 0 0;
+      background-size: 100% 100%;
+      height: 1.1em;
+      width: 1em;
+      float: left;
+      margin-left: 1em;
+      opacity: 0; }
     header .header #header-right {
       background: url(../images/bigger-location.png) no-repeat 0 0;
       background-size: 100% 100%;
